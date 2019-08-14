@@ -1,7 +1,7 @@
 {
     "name": "OpenMageModuleFostering/Treynolds_Qsearch",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "MIT-License",
     "homepage": "",
     "description": "Adds Quick Search functionality to the Admin -> System -> Configuration page.",
     "authors": [

@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>Treynolds_Qsearch</name>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <stability>stable</stability>
-    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">MIT License</license>
     <channel>community</channel>
     <extends/>
     <summary>Adds Quick Search functionality to the Admin -&gt; System -&gt; Configuration page.</summary>
     <description>A simple but effective module to make working in the System -&gt; Configuration area of the Magento Admin easier for my clients. With qsearch you get a text box that will search the labels and values of fields for any that match your input. Areas that don't match will be shaded out, allowing you to quickly and accurately navigate the configuration area. </description>
-    <notes>This has been tested on Community 1.7.X and Enterprise 1.12.X. It is currently stable, without known bugs. It does not rely on any external libraries. </notes>
+    <notes>Just updating the package info. Fixing required PHP version. &#xD;
+&#xD;
+This has been tested on Community 1.7.X and Enterprise 1.12.X. It is currently stable, without known bugs. It does not rely on any external libraries. </notes>
     <authors><author><name>Tim Reynolds</name><user>timreynolds</user><email>reynolds.timj@gmail.com</email></author></authors>
-    <date>2012-10-26</date>
-    <time>18:59:11</time>
-    <contents><target name="magecommunity"><dir name="Treynolds"><dir name="Qconfig"><dir name="Block"><dir name="Adminhtml"><file name="Qsearch.php" hash="4d999525f1192554818c0502fc375dd0"/><dir name="System"><dir name="Config"><file name="Edit.php" hash="23e969d321efc6d568b9a9a5d467c5a3"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="2171565f47e31df689f582306b9023aa"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="QconfigController.php" hash="67bcd4fe6344bd9276bd5ce510eee444"/></dir></dir><dir name="etc"><file name="config.xml" hash="4d308050681f197ed31282bac2e0b0a6"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="treynolds"><file name="qconfig.xml" hash="0133fbbbb066d8ef762df43bdde98dca"/></dir></dir><dir name="template"><dir name="treynolds"><dir name="qconfig"><file name="qsearch.phtml" hash="54256feeb5cd421f658e9210633fca3f"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="base"><dir name="default"><dir name="treynolds"><file name="ajax-loader.gif" hash="394bafc3cc4dfb3a0ee48c1f54669539"/><file name="qconfig.css" hash="6ad9d4a0ed3807f353fdbf9392fd5ed0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Treynolds_Qconfig.xml" hash="388ba20b88932a6b99967f80fda43505"/></dir></target><target name="mage"><dir name="js"><dir name="treynolds"><file name="qconfig.js" hash="301f9abaedbe747b1069199e08625692"/></dir></dir></target></contents>
+    <date>2012-10-28</date>
+    <time>15:39:20</time>
+    <contents><target name="magecommunity"><dir name="Treynolds"><dir name="Qconfig"><dir name="Block"><dir name="Adminhtml"><file name="Qsearch.php" hash="4d999525f1192554818c0502fc375dd0"/><dir name="System"><dir name="Config"><file name="Edit.php" hash="23e969d321efc6d568b9a9a5d467c5a3"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="2171565f47e31df689f582306b9023aa"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="QconfigController.php" hash="67bcd4fe6344bd9276bd5ce510eee444"/></dir></dir><dir name="etc"><file name="config.xml" hash="063f1c64a9eb6becb44b805ab0ba5777"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="treynolds"><file name="qconfig.xml" hash="0133fbbbb066d8ef762df43bdde98dca"/></dir></dir><dir name="template"><dir name="treynolds"><dir name="qconfig"><file name="qsearch.phtml" hash="54256feeb5cd421f658e9210633fca3f"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="base"><dir name="default"><dir name="treynolds"><file name="ajax-loader.gif" hash="394bafc3cc4dfb3a0ee48c1f54669539"/><file name="qconfig.css" hash="6ad9d4a0ed3807f353fdbf9392fd5ed0"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Treynolds_Qconfig.xml" hash="388ba20b88932a6b99967f80fda43505"/></dir></target><target name="mage"><dir name="js"><dir name="treynolds"><file name="qconfig.js" hash="301f9abaedbe747b1069199e08625692"/></dir></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.3.0</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>5.5.0</max></php></required></dependencies>
 </package>
