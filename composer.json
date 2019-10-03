@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Treynolds_Qsearch",
+    "name": "OpenMageModuleFostering\/Treynolds_Qsearch",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "Adds Quick Search functionality to the Admin -> System -> Configuration page.",
     "authors": [
-    {
-        "name": "Tim Reynolds",
-        "email": "reynolds.timj@gmail.com"
-    }
-],
+        {
+            "name": "Tim Reynolds",
+            "email": "reynolds.timj@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
