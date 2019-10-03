@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Adds Quick Search functionality to the Admin -> System -> Configuration page.
